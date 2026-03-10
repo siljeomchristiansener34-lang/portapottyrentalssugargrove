@@ -1,0 +1,173 @@
+    <br><br><br><br>
+
+<div id="faq-section" class="faq-section-wrapper">
+
+  <style>
+    /* ============== Scoped FAQ styles ============== */
+    .faq-section-wrapper {
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #d1c9b9 0%, #4b2767 50%, #ffffff 100%);
+      border-radius: 16px;
+      color: #e0e0e0;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+      margin: 0 15px;
+    }
+
+    .faq-section-wrapper .faq-title {
+      text-align: center;
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: antiquewhite;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+      margin-bottom: 2.5rem;
+    }
+
+    .faq-section-wrapper .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      align-items: start;
+    }
+
+    .faq-section-wrapper .faq-content {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .faq-section-wrapper .faq-item {
+      background: rgba(255,255,255,0.92);
+      color: #222;
+      padding: 1.6rem 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.15);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .faq-section-wrapper .faq-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.18);
+    }
+
+    .faq-section-wrapper .faq-question {
+      margin: 0 0 0.9rem 0;
+      font-size: 1.32rem;
+      font-weight: 700;
+      color: #0d47a1;
+      line-height: 1.35;
+    }
+
+    .faq-section-wrapper .faq-answer {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* Make the image side sticky/fixed on scroll */
+    .faq-section-wrapper .faq-image-side {
+      position: sticky;
+      top: 20px; /* Adjust this value if you have a fixed navbar/header (e.g., 80px or 100px) */
+      align-self: start; /* Keeps it aligned to the top of the grid row */
+      height: fit-content; /* Prevents stretching */
+    }
+
+    .faq-section-wrapper .faq-image-side img {
+      width: 100%;
+      height: auto;
+      border-radius: 14px;
+      box-shadow: 0 16px 38px rgba(0,0,0,0.25);
+      object-fit: cover;
+    }
+
+    /* Mobile: Disable sticky behavior and revert to normal flow */
+    @media (max-width: 992px) {
+      .faq-section-wrapper .faq-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .faq-section-wrapper .faq-title {
+        font-size: 2.1rem;
+      }
+
+      .faq-section-wrapper .faq-image-side {
+        position: static; /* No sticky on mobile */
+        top: auto;
+      }
+    }
+  </style>
+
+  <div class="faq-wrapper">
+    <h2 class="faq-title" style="font-size: 35px;">Frequently Asked Questions</h2>
+
+    <div class="faq-grid">
+      <!-- Left column - Questions & Answers -->
+      <div class="faq-content">
+        <div class="faq-item">
+          <h4 class="faq-question">1. What is your process for servicing a unit during a long-term rental?</h4>
+          <div class="faq-answer">
+            Our standard long-term service, typically performed weekly, is comprehensive. Our technician will pump out the waste tank, thoroughly clean and sanitize all interior surfaces (walls, floor, seat, and urinal), restock it with fresh toilet paper and hand sanitizer, and recharge the tank with our biodegradable, odor-controlling solution.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">2. How do I protect my lawn or driveway from damage during delivery?</h4>
+          <div class="faq-answer">
+            Our drivers are trained to be extremely careful. However, to fully protect sensitive surfaces, we recommend you mark the desired placement spot clearly. For delicate lawns or new pavement, you can place a small tarp or a piece of plywood down where the unit will sit.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">3. What happens if I need an extra cleaning service before my scheduled day?</h4>
+          <div class="faq-answer">
+            We understand that sometimes usage is higher than anticipated. If you find your unit needs an additional service, just give our office a call. We can dispatch a truck for an unscheduled service call for an additional fee.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">4. Do your units have any kind of lighting for nighttime events?</h4>
+          <div class="faq-answer">
+            Our standard portable restrooms do not come with lighting. For evening events, we recommend placing them in a well-lit area. However, many of our deluxe models and luxury restroom trailers feature interior, often solar-powered, lighting.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">5. What is the most common mistake people make when ordering a porta potty?</h4>
+          <div class="faq-answer">
+            The most common mistake is underestimating the number of units needed. For events: one toilet per 75 guests for a 4-hour event (more if alcohol is served). For job sites, follow OSHA guidelines. Better to have one extra than to run short!
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center flex-nowrap pt-xl-0" style="margin-left: 100px; font-family: Verdana, Geneva, Tahoma, sans-serif">
+          <a href="tel:870-306-3280" class="btn-hover-bg btn btn-secondary text-white py-2 px-4 me-3" style="background-color: red; border: solid white; font-size:medium;">CLICK HERE TO CALL US (870) 306-3280</a>
+        </div>
+      </div>
+
+      <!-- Right column - Image (now sticky on desktop) -->
+      <div class="faq-image-side">
+        <img src="../static/img/lockley.jpg" alt="Portable restroom unit" />
+      </div>
+    </div>
+  </div>
+</div>
+
+    <br><br><br><br>
+    <div class="containeralooma">
+        <section class="boxalooma" style="text-align: center;">
+        <h2 class="heading-with-line template4 h2alooma">#State Insights: Population,<br> Zip Codes, Influence, and Service Areas</h2>
+        <p>aloomaidcontentscity</p>
+        <p style="color:black;">Zip Codes in #State that we also serve: <i>aloomaidzip</i></p>
+        </section>
+    </div>
+
+    <br><br><br><br>
+    <div class="containeralooma" style="background-color: transparent; width: 100%;">
+        <section class="boxalooma" style="text-align: center;">
+        <h2 class="heading-with-line template4 h2alooma">Cities Close To #State That We Also Serve</h2>
+        <div class="row">
+            aloomaidcitycloseto
+        </div>
+        <br><br>
+        aloomaidembeddedmap
+        </section>
+    </div>

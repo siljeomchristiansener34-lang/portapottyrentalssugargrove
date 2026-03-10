@@ -1,0 +1,12 @@
+﻿body {
+    background: url('../images/jack-price-burns-YVNlVJ8F_Ok-unsplash.jpg') no-repeat center center,
+                linear-gradient(135deg, rgba(255, 210, 200, 0.8), rgba(200, 230, 255, 0.8)); /* Warm coral to soft blue for a satisfying, vibrant glow */
+    background-color: #A7B2C5; /* Soft, warm fallback color */
+    background-size: cover; /* Ensures full viewport coverage */
+    background-attachment: fixed; /* Retains parallax effect */
+    background-blend-mode: soft-light; /* Smoother blend for a pleasing effect */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    line-height: 1.6;
+    margin: 0;
+}
